@@ -103,8 +103,8 @@ Included is a folder called GyroConfigs. This includes templates for creating ne
 1. Connect your controller either with a usb cable or via bluetooth. Most modern controllers will be suported, including all Xbox, Playstation and Switch controllers, although Xbox and many others don't have the gyro sensor required for gyro controls.
 
 2. Run the JoyShockMapper executable, and you should see a console window welcoming you to JoyShockMapper.
-    * In the console you can start entering bindings : [button name] = [key name]. See [Digital Inputs section](#1-digital-inputs) for details on how buttons and keys are named.
-    * [Sticks](#3-stick-configuration), the [gyro](#4-gyro-mouse-inputs) and [analog triggers](#2-analog-triggers) require some more configuration: typically some MODE you want to set, a sensitivity value and some other settings. Each is explained in the corresponding section. They follow the same format : [setting name] = [value]
+    * In the console you can start entering bindings : [button name] = [key name]. See [Digital Inputs section](/wiki/Digital-Inputs) for details on how buttons and keys are named.
+    * [Sticks](/wiki/Stick-Configuration), the [gyro](/wiki/Gyro-Mouse-Inputs) and [analog triggers]([#2-analog-triggers](/wiki/Analog-Triggers)) require some more configuration: typically some MODE you want to set, a sensitivity value and some other settings. Each is explained in the corresponding section. They follow the same format : [setting name] = [value]
 	* Buttons and settings will display their current values if you only enter their name in the console.
 	* Settings can display a short description of what they do if you enter [setting name] HELP
 	* There are quite a few commands that do not work as assignments like above but just runs a function. For example RECONNECT\_CONTROLLERS will update the controller listing, and RESET\_MAPPINGS will set all settings and bindings to default. README will lead you to this document!
@@ -121,7 +121,7 @@ Included is a folder called GyroConfigs. This includes templates for creating ne
 	* Enter the command RESTART\_GYRO\_CALIBRATION to begin calibrating them;
 	* After just a couple of seconds, enter the command FINISH\_GYRO\_CALIBRATION to finish calibrating them.
 	* These commands are also accessible via the tray icon contextual menu as well.
-    * JoyShockMapper relies on a Real World Calibration value for some features such as flick stick. If you didn't find this value in the [online database](http://gyrowiki.jibbsmart.com/games), check the [Real World Calibration](#5-real-world-calibration) section to calculate it yourself.
+    * JoyShockMapper relies on a Real World Calibration value for some features such as flick stick. If you didn't find this value in the [online database](http://gyrowiki.jibbsmart.com/games), check the [Real World Calibration](/wiki/Real-World-Calibration) section to calculate it yourself.
 
 5. If you run into some issues, make sure you check the [Troubleshooting](#troubleshooting) section and [Known and Perceived Issues](#known-and-perceived-issues). If you couldn't find your answer, you can find more help online on the [GyroGaming subreddit](https://www.reddit.com/r/GyroGaming/) and its [affiliated Discord Server](https://discord.gg/4w7pCqj).
 
@@ -173,6 +173,7 @@ JoyShockMapper was originally created by **Julian "Jibb" Smart**. As of version 
 * Nicolas (code)
 * Bryan Rumsey (icon art)
 * Contributer (icon art)
+* Al. Lopez (document cleanup)
 * Sunny Ye (translation)
 * Romeo Calota (linux and general portability)
 * Garrett (code)
